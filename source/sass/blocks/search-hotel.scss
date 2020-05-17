@@ -41,6 +41,13 @@
 }
 
 @media (min-width: $tablet-width) {
+  .search-hotel {
+    padding-left: 167px;
+    padding-top: 57px;
+    padding-right: 167px;
+    padding-bottom: 58px;
+  }
+
   .search-hotel__wrapper {
     width: 434px;
     min-height: 98px;
@@ -55,6 +62,12 @@
 }
 
 @media (min-width: $desktop-width) {
+  .search-hotel {
+    padding-left: 371px;
+    padding-right: 371px;
+    padding-bottom: 66px;
+  }
+
   .search-hotel__wrapper {
     margin-bottom: 52px;
   }

@@ -4,11 +4,9 @@
 }
 
 .site-list__link {
+  display: block;
   padding-top: 21px;
   padding-bottom: 20px;
-  display: block;
-
-  font-size: 18px;
   line-height: 40px;
   color: $white;
   text-transform: uppercase;
@@ -29,6 +27,10 @@
   .site-list {
     display: flex;
     flex-wrap: wrap;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 11px;
+    text-align: center;
     background-color: $white;
     box-shadow: none;
   }
@@ -42,8 +44,10 @@
   }
 
   .site-list__link {
-    margin: 25px 0 23px;
     background: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-decoration: none;
     border: none;
     color: #766357;
 
@@ -58,7 +62,6 @@
   }
 
   .site-list__link[href] {
-    margin: 25px 0 23px;
     background: none;
     border: none;
     color: $darkblack;
@@ -76,10 +79,10 @@
 
 @media (min-width: $desktop-width) {
   .site-list {
-
-    display: flex;
-    flex-wrap: wrap;
-
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 11px;
+    text-align: center;
     background-color: $white;
   }
 }
